@@ -7,10 +7,6 @@
 
 import UIKit
 
-class AppData {
-    var count = 1
-}
-
 class ViewController3: UIViewController {
 
     @IBOutlet weak var DrillsText: UITextField!
@@ -36,6 +32,9 @@ class ViewController3: UIViewController {
         var dText = DrillsText.text!
         var gText = goalText.text!
         var dateT = dateText.text!
+        AppData.title.append(dText)
+        AppData.hours.append(gText)
+        AppData.date.append(dateT)
         print("\(dText),\(gText),\(dateT)")
     }
     @IBAction func datePickerValueChanged(_ sender: UIDatePicker) {
