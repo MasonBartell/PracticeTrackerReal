@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2322978C2BD161E8006D4954 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2322978B2BD161E8006D4954 /* HistoryViewController.swift */; };
+		2322978E2BD6AE22006D4954 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2322978D2BD6AE22006D4954 /* ViewController3.swift */; };
 		238703CC2BD0123900939882 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238703CB2BD0123900939882 /* AppDelegate.swift */; };
 		238703CE2BD0123900939882 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238703CD2BD0123900939882 /* SceneDelegate.swift */; };
 		238703D02BD0123900939882 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238703CF2BD0123900939882 /* ViewController.swift */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		2322978B2BD161E8006D4954 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		2322978D2BD6AE22006D4954 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		238703C82BD0123900939882 /* PracticeTrackerReal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeTrackerReal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		238703CB2BD0123900939882 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		238703CD2BD0123900939882 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				238703CF2BD0123900939882 /* ViewController.swift */,
 				2322978B2BD161E8006D4954 /* HistoryViewController.swift */,
 				238703D12BD0123900939882 /* Main.storyboard */,
+				2322978D2BD6AE22006D4954 /* ViewController3.swift */,
 				238703D72BD0123B00939882 /* Assets.xcassets */,
 				238703D92BD0123B00939882 /* LaunchScreen.storyboard */,
 				238703DC2BD0123B00939882 /* Info.plist */,
@@ -266,6 +269,7 @@
 			files = (
 				238703D02BD0123900939882 /* ViewController.swift in Sources */,
 				238703CC2BD0123900939882 /* AppDelegate.swift in Sources */,
+				2322978E2BD6AE22006D4954 /* ViewController3.swift in Sources */,
 				238703D62BD0123900939882 /* PracticeTrackerReal.xcdatamodeld in Sources */,
 				2322978C2BD161E8006D4954 /* HistoryViewController.swift in Sources */,
 				238703CE2BD0123900939882 /* SceneDelegate.swift in Sources */,
