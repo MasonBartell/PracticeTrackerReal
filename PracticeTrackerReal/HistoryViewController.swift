@@ -19,6 +19,7 @@ class HistoryViewController: UIViewController,UITableViewDelegate,UITableViewDat
    
     
 
+    @IBOutlet weak var hoursLabel: UILabel!
     @IBOutlet weak var HistoryTableView: UITableView!
     
     override func viewDidLoad() {
