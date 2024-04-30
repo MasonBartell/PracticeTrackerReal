@@ -10,14 +10,14 @@ import UIKit
 class AppData
 {
     static var title = [String]()
-    static var hours = [String]()
+    static var hours = [Int]()
     static var date = [String]()
 }
 
 
 class HistoryViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
    
-    
+    var x = 0
 
     @IBOutlet weak var hoursLabel: UILabel!
     @IBOutlet weak var HistoryTableView: UITableView!
@@ -41,6 +41,7 @@ class HistoryViewController: UIViewController,UITableViewDelegate,UITableViewDat
     }
     override func viewDidAppear(_ animated: Bool) {
         HistoryTableView.reloadData()
+       
     }
 
 }

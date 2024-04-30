@@ -19,6 +19,7 @@
 		238703E62BD0123B00939882 /* PracticeTrackerRealTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238703E52BD0123B00939882 /* PracticeTrackerRealTests.swift */; };
 		238703F02BD0123B00939882 /* PracticeTrackerRealUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238703EF2BD0123B00939882 /* PracticeTrackerRealUITests.swift */; };
 		238703F22BD0123B00939882 /* PracticeTrackerRealUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238703F12BD0123B00939882 /* PracticeTrackerRealUITestsLaunchTests.swift */; };
+		238A41FF2BDFE9690061229B /* GoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238A41FE2BDFE9690061229B /* GoalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		238703EB2BD0123B00939882 /* PracticeTrackerRealUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeTrackerRealUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		238703EF2BD0123B00939882 /* PracticeTrackerRealUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeTrackerRealUITests.swift; sourceTree = "<group>"; };
 		238703F12BD0123B00939882 /* PracticeTrackerRealUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeTrackerRealUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		238A41FE2BDFE9690061229B /* GoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		238703BF2BD0123900939882 = {
 			isa = PBXGroup;
 			children = (
+				238A41FE2BDFE9690061229B /* GoalViewController.swift */,
 				238703CA2BD0123900939882 /* PracticeTrackerReal */,
 				238703E42BD0123B00939882 /* PracticeTrackerRealTests */,
 				238703EE2BD0123B00939882 /* PracticeTrackerRealUITests */,
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				238A41FF2BDFE9690061229B /* GoalViewController.swift in Sources */,
 				238703D02BD0123900939882 /* ViewController.swift in Sources */,
 				238703CC2BD0123900939882 /* AppDelegate.swift in Sources */,
 				2322978E2BD6AE22006D4954 /* ViewController3.swift in Sources */,

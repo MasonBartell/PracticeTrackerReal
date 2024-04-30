@@ -30,10 +30,10 @@ class ViewController3: UIViewController {
     
     @IBAction func submitButton(_ sender: UIButton) {
         var dText = DrillsText.text!
-        var gText = goalText.text!
+        var gText = (Int)(goalText.text!)
         var dateT = dateText.text!
         AppData.title.append(dText)
-        AppData.hours.append(gText)
+        AppData.hours.append(gText ?? 0)
         AppData.date.append(dateT)
         print("\(dText),\(gText),\(dateT)")
     }
