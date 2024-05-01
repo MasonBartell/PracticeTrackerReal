@@ -7,12 +7,11 @@
 
 import UIKit
 
-class AppData
-{
-    static var title = [String]()
-    static var hours = [Int]()
-    static var date = [String]()
-}
+class AppData {
+static var title = [String]()
+static var hours = [Int]()
+static var date = [String]()
+    }
 
 
 class HistoryViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
