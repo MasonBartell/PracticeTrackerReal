@@ -26,21 +26,30 @@ class ViewController3: UIViewController {
     dateText.inputView = datePicker
         datePicker.datePickerMode = .date
     dateText.text = dateFormatter.string(from: datePicker.date)
+   
+             let tap = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
+
+            view.addGestureRecognizer(tap)
     }
     
     @IBAction func submitButton(_ sender: UIButton) {
-        var dText = DrillsText.text!
-        var gText = (Int)(goalText.text!)
-        var dateT = dateText.text!
+        let dText = DrillsText.text!
+        let gText = (Int)(goalText.text!)
+        let dateT = dateText.text!
         AppData.title.append(dText)
         AppData.hours.append(gText ?? 0)
         AppData.date.append(dateT)
         print("\(dText),\(gText),\(dateT)")
+        AppData.x = AppData.x + ((Int)(goalText.text!) ?? 0)
     }
     @IBAction func datePickerValueChanged(_ sender: UIDatePicker) {
               
             dateText.text = dateFormatter.string(from: sender.date)
             view.endEditing(true)
         }
+    @objc func dismissKeyboard() {
+       
+        view.endEditing(true)
+    }
     
 }

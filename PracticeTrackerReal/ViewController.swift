@@ -8,13 +8,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var hoursLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         print("hello")
         // Do any additional setup after loading the view.
     }
-
-// Hello 
+    override func viewDidAppear(_ animated: Bool) {
+        hoursLabel.text = "\(AppData.x)"
+    }
 }
 

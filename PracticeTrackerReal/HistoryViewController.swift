@@ -11,6 +11,7 @@ class AppData {
 static var title = [String]()
 static var hours = [Int]()
 static var date = [String]()
+    static var x = 0 
     }
 
 
@@ -18,7 +19,6 @@ class HistoryViewController: UIViewController,UITableViewDelegate,UITableViewDat
    
     var x = 0
 
-    @IBOutlet weak var hoursLabel: UILabel!
     @IBOutlet weak var HistoryTableView: UITableView!
     
     override func viewDidLoad() {

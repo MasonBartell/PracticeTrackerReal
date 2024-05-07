@@ -59,15 +59,32 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hours Total Towards Goal:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Jk-vO-uqF">
+                                <rect key="frame" x="16" y="190" width="313" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Hb-Nj-Emq">
+                                <rect key="frame" x="305" y="199" width="57" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="1sc-wO-8kT"/>
+                    <connections>
+                        <outlet property="hoursLabel" destination="4Hb-Nj-Emq" id="DSf-kr-jPy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="993" y="-2"/>
+            <point key="canvasLocation" x="991.60305343511448" y="-2.1126760563380285"/>
         </scene>
         <!--History View Controller-->
         <scene sceneID="W0T-Kc-5i2">
@@ -120,20 +137,6 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hours towards Goal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VaW-Go-wpN">
-                                <rect key="frame" x="66" y="103" width="150" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l7h-hQ-tvv">
-                                <rect key="frame" x="241" y="103" width="42" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="VuR-UK-o1v"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>
@@ -141,7 +144,6 @@
                     <navigationItem key="navigationItem" id="6Aq-MC-YuU"/>
                     <connections>
                         <outlet property="HistoryTableView" destination="ZEM-4E-3Tz" id="anV-HN-Mhw"/>
-                        <outlet property="hoursLabel" destination="l7h-hQ-tvv" id="iUO-HH-95F"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B8B-Ip-ev4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -213,7 +215,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vm4-IT-Rwx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2426.7175572519081" y="-2.1126760563380285"/>
+            <point key="canvasLocation" x="2393" y="-2"/>
         </scene>
         <!--View Controller3-->
         <scene sceneID="Jc0-8U-a7H">
@@ -288,6 +290,10 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="8LJ-y8-SSb"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="BRa-N0-Ve5" appends="YES" id="Jxd-tQ-6WR"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="yBE-3P-3bs"/>
                     <connections>
@@ -298,8 +304,9 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OSR-iM-3wJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="BRa-N0-Ve5"/>
             </objects>
-            <point key="canvasLocation" x="3144.2748091603053" y="-2.1126760563380285"/>
+            <point key="canvasLocation" x="3053" y="-2"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Pu3-ye-G9v">
