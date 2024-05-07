@@ -35,7 +35,7 @@ class GoalViewController: UIViewController {
         var newGoal = newGoalTextfield.text
         defaults.setValue(newGoal, forKey: "theName")
         activeGoalLabel.text = newGoal
-        
+        _ = navigationController?.popToRootViewController(animated: true)
         
     }
     @objc func dismissKeyboard() {

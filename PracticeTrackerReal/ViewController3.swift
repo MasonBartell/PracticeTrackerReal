@@ -41,6 +41,7 @@ class ViewController3: UIViewController {
         AppData.date.append(dateT)
         print("\(dText),\(gText),\(dateT)")
         AppData.x = AppData.x + ((Int)(goalText.text!) ?? 0)
+        _ = navigationController?.popToRootViewController(animated: true)
     }
     @IBAction func datePickerValueChanged(_ sender: UIDatePicker) {
               
